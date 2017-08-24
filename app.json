@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/advantage/advantage", 
+    "pages/dynamic/dynamic", 
+    "pages/conact/conact"
+  ],
+  "window": { 
+   "backgroundTextStyle": "light",
+  "navigationBarTextStyle": "white", 
+  "navigationBarTitleText": "miniProgram",
+  "navigationBarBackgroundColor": "#A9A9A9", 
+  "backgroundColor": "#F2f2f2",
+  "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#33a3dc",     
+    "borderStyle": "white", 
+    "backgroundColor": "#A9A9A9", 
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/footer-icon-01.png",
+        "selectedIconPath": "images/footer-icon-01-active.png"
+      },
+      {
+        "pagePath": "pages/advantage/advantage",
+        "text": "优势",
+        "iconPath": "images/footer-icon-02.png",
+        "selectedIconPath": "images/footer-icon-02-active.png"
+      },
+      {
+        "pagePath": "pages/dynamic/dynamic",
+        "text": "动态",
+        "iconPath": "images/footer-icon-03.png",
+        "selectedIconPath": "images/footer-icon-03-active.png"
+      },
+      {
+        "pagePath": "pages/conact/conact",  
+        "text": "联系",
+        "iconPath": "images/footer-icon-04.png",
+        "selectedIconPath": "images/footer-icon-04-active.png"
+      }
+    ]
+  }
+}

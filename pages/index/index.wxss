@@ -1,0 +1,12 @@
+/**index.wxss**/
+.contanier {
+  margin: 0 auto
+}
+.swiper-box {
+  width: 100%
+} 
+swiper-item image {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
